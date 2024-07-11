@@ -1,0 +1,72 @@
+.wrapper{
+    padding: 100px 0;
+}
+.secondcentertext{
+    h2{
+        text-align: center;
+        font-family: Inter-Bold;
+        font-size: 72px;
+        margin-bottom: 64px;
+        .greenspan{
+            background: -webkit-linear-gradient(
+                279.69deg,
+                #00796d8f 30%,
+                #38c681be 70%
+              );
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+        }
+    }
+  
+}
+.firstwrap{
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    padding: 54px 60px;
+    border-radius: 20px;
+    .min{
+        font-family: Inter-Semibold;
+        font-size: 32px;
+        .greenspan{
+            background: -webkit-linear-gradient(
+                279.69deg,
+                #00796d8f 30%,
+                #38c681be 70%
+              );
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+        }
+    }
+    .arrow{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-family: Inter-Semibold;
+            font-size: 32px;
+            background: -webkit-linear-gradient(
+                279.69deg,
+                #00796d8f 30%,
+                #38c681be 70%
+              );
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+        }
+    }
+    .lorem{
+        width: 700px;
+        margin: 27px 0 27px;
+        p{
+            font-family: Inter-Regular;
+            font-size: 18px;
+            color: #5C5E60;
+        }
+    }
+    img{
+        border-radius: 12px;
+    }
+}
